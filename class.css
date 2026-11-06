@@ -1,0 +1,24 @@
+body {
+background-color: #000000;
+color: #ffffff;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+padding: 30px;
+}
+form {
+background:
+#000000;
+padding: 25px;
+border: 1px solid #ffffff;
+border-radius: 6px;
+max-width: 400px;
+}
+input[type="number"] {
+background-color: #111111;
+color: #ffffff;
+border: 2px solid #ffffff;
+border-radius: 4px;
+padding: 5px;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+text-align: center;
+}
