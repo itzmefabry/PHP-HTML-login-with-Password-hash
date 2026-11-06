@@ -30,6 +30,8 @@ if (isset($_POST['registro'])) {
 $n1=$_POST['a'];
 $n2=$_POST['b'];
 
+$pass = password_hash($pass1, PASSWORD_DEFAULT);
+
 
 
 }
