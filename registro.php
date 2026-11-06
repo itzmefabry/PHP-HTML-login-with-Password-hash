@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="class.css">
 <h3>Ingresa:</h3>
 USuario: <input type="text" name="a" id="a" style="width: 100px" required>
-Password: <input type="text" name="b" id="b" style="width: 100px" required>
+Password: <input type="text" name="b" id="b" style="width: 100px" minlength="6" required>
 <br>
 <br>
 <button type="submit" name="registro">Registrar</button>

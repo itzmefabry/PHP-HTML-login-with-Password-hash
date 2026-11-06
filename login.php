@@ -27,11 +27,26 @@ Password: <input type="text" name="d" id="d" style="width: 100px" required>
 
 if (isset($_POST['ingresar'])) {
 
-$n1=$_POST['a'];
-$n2=$_POST['b'];
+$n1=$_POST['c'];
+$n2=$_POST['d'];
+$users = 'usuarios.json';
+//codigo sacado con ayuda
+
+$contnt=file_get_contents($users);
+$arreglo1 = json_decode($contnt, true);
 
 
-
+foreach ($arreglo1 as $registro) {
+        if ($registro['usuario'] === $n1 && 
+        password_verify($n2, $registro['password'])) 
+        {
+            echo "Acceso Concecedido";
+        }
+        else{
+            echo "Acceso Denegado";
+        }
+    }
 }
+
 
 ?>
