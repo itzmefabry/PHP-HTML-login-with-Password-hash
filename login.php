@@ -7,18 +7,6 @@
 </head>
 <body>
 
-<h2>Registro</h2>
-<form method="POST" action="">
-<link rel="stylesheet" href="class.css">
-<h3>Ingresa:</h3>
-USuario: <input type="text" name="a" id="a" style="width: 100px" required>
-Password: <input type="text" name="b" id="b" style="width: 100px" required>
-<br>
-<br>
-<button type="submit" name="registro">Registrar</button>
-
-</form>
-
 <h2>Inicio:</h2>
 <form method="POST" action="">
 <link rel="stylesheet" href="class.css">
@@ -29,28 +17,21 @@ Password: <input type="text" name="d" id="d" style="width: 100px" required>
 <br>
 <button type="submit" name="ingresar">Ingresar</button>
 </form>
-
 <hr>
+
+
 
 </body>
 
 <?php
 
-if (isset($_POST['registro'])) {
+if (isset($_POST['ingresar'])) {
 
 $n1=$_POST['a'];
 $n2=$_POST['b'];
 
 
-}
-
-
-if (isset($_POST['ingresar'])) {
-$x1=$_POST['a'];
-$y1=$_POST['b'];
 
 }
-
-
 
 ?>
