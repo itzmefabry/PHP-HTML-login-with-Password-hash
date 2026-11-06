@@ -30,9 +30,20 @@ if (isset($_POST['registro'])) {
 $n1=$_POST['a'];
 $n2=$_POST['b'];
 
-$pass = password_hash($pass1, PASSWORD_DEFAULT);
+$pass = password_hash($n2, PASSWORD_DEFAULT);
 
+$users = 'usuarios.json';
+$arreglo = [];
 
+$arreglo[] = [
+    'usuario' => $n1,
+    'password' => $pass
+];
+
+file_put_contents($users,json_encode($arreglo));
+
+echo "<h3>Usuario registrado</h3>";
+echo "<a href='index.php'>Volver</a>";
 
 }
 
