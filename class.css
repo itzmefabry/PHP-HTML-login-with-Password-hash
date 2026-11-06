@@ -22,3 +22,26 @@ font-family: "Comic Sans MS", "Comic Sans", cursive;
 
 text-align: center;
 }
+
+button {
+background-color: #ffffff;
+color: #000000;
+border: 2px solid #ffffff;
+padding: 8px 15px;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+font-weight: bold;
+cursor: pointer;
+border-radius: 4px;
+}
+button:hover {
+background-color: #000000;
+color: #ffffff;
+}
+h2, h3 {
+color: #ffffff;
+}
+hr {
+border: 0; border-top:
+2px solid #ffffff;
+margin: 20px 0;
+}
