@@ -11,8 +11,8 @@
 <form method="POST" action="">
 <link rel="stylesheet" href="class.css">
 <h3>Ingresa:</h3>
-USuario: <input type="text" name="a" id="a" style="width: 50px" required>
-Password: <input type="text" name="b" id="b" style="width: 50px" required>
+USuario: <input type="text" name="a" id="a" style="width: 100px" required>
+Password: <input type="text" name="b" id="b" style="width: 100px" required>
 <br>
 <br>
 <button type="submit" name="registro">Registrar</button>
@@ -23,8 +23,8 @@ Password: <input type="text" name="b" id="b" style="width: 50px" required>
 <form method="POST" action="">
 <link rel="stylesheet" href="class.css">
 <h3>Ingresa:</h3>
-USuario: <input type="text" name="c" id="c" style="width: 50px" required>
-Password: <input type="text" name="d" id="d" style="width: 50px" required>
+USuario: <input type="text" name="c" id="c" style="width: 100px" required>
+Password: <input type="text" name="d" id="d" style="width: 100px" required>
 <br>
 <br>
 <button type="submit" name="ingresar">Ingresar</button>

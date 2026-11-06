@@ -33,13 +33,16 @@ font-weight: bold;
 cursor: pointer;
 border-radius: 4px;
 }
+
 button:hover {
 background-color: #000000;
 color: #ffffff;
 }
+
 h2, h3 {
 color: #ffffff;
 }
+
 hr {
 border: 0; border-top:
 2px solid #ffffff;
