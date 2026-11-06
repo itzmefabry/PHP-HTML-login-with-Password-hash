@@ -36,4 +36,21 @@ Password: <input type="text" name="d" id="d" style="width: 100px" required>
 
 <?php
 
+if (isset($_POST['registro'])) {
+
+$n1=$_POST['a'];
+$n2=$_POST['b'];
+
+
+}
+
+
+if (isset($_POST['ingresar'])) {
+$x1=$_POST['a'];
+$y1=$_POST['b'];
+
+}
+
+
+
 ?>
