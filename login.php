@@ -41,12 +41,15 @@ foreach ($arreglo1 as $registro) {
         password_verify($n2, $registro['password'])) 
         {
             echo "Acceso Concecedido";
+            echo "<a href='index.php'>Volver</a>";
         }
         else{
             echo "Acceso Denegado";
+            echo "<a href='index.php'>Volver</a>";
         }
     }
 }
+
 
 
 ?>
